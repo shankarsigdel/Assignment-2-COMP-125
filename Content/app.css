@@ -1,9 +1,11 @@
 /*CSS File*/
-td {
+td 
+{
     padding: 10px;
     border: solid 1px silver;
 }
-p {
+p 
+{
        
     margin-right: 150px;
     margin-left: 80px;
