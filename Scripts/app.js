@@ -261,8 +261,11 @@
                 let mainData = XHR.responseText;
 
                 main.innerHTML =  `
-                <br>    
+                <br>  
                 <p align="center">
+                <h1 align="Center" background-color= blue;>MINI-PORTFOLIO</h1>
+                </p>
+                <p align="left">
                     <img width="200" height="230"src="./images/shankar.jpg">
                     
                 </p>            
@@ -333,7 +336,7 @@
             }
         });
     }
-    // named function
+  
     function Start()
     {
       //  console.log('%cApp Started...', "color:white; font-size: 24px;");   
