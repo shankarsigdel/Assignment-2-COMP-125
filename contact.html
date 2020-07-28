@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./Contents/app.css">
+</head>
+<body>
+    <!-- Main Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-yellowgreen bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/logo.png" width="80" height="65" alt="Logo" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="fas fa-home fa-lg"></i> HOME</a>
+                          </li>
+         
+                          <li class="nav-item">
+                            <a class="nav-link" href="contact.html"><i class="fas fa-phone fa-lg"></i>CONTACT</a>
+                          </li>
+      
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="project.html"><i class="fas fa-id-card"></i> PROJECT</a>
+                        </li>
+                    </ul>
+             </div>
+          </nav>
+    </header>
+    <main  style="background-color:powderblue;">
+        <div class="container">
+            <h1 class="display-4"><b>Contact Us</b></h1>
+            <div id="errorMessage" class="alert alert-danger" role="alert" hidden>
+            </div>
+            <hr>
+            <form id="conactForm">
+              <div class="form-group">
+                <label for="firstName">First and Last Name</label>
+                <input type="text" class="form-control" id="firstName" name="firstName" aria-describedby="firstName"
+                placeholder="Enter your First and Last Name" required autofocus>
+              </div>
+              <div class="form-group">
+                <label for="contactNumber">Contact Number:</label>
+                <input type="tel" class="form-control" id="contactNumber" name="contactNumber" aria-describedby="contactNumber"
+                placeholder="Enter your Contact Number" required>
+              </div>
+
+              <div class="form-group">
+                <label for="emailAddress">Email Address:</label>
+                <input type="email" class="form-control" id="emailAddress" name="emailAddress" aria-describedby="emailAddress"
+                placeholder="Enter your Email Address" required>
+              </div>
+
+              <div class="form-group">
+                <label for="shortMessage">Please Enter Your Short Message:</label>
+                <textarea class="form-control" id="shortMessage"  name="shortMessage" rows="2" aria-describedby="shortMessage">--Please Feel Free To Leave Your Message Here--</textarea>
+ 
+              </div>
+              <tr>
+                <td style="width: 241px">
+     
+                <div class="form-group">
+                    Please Click to Send or Reset:<td style="width: 597px"> 
+                <label><span lang="en-ca"> 
+                <a href="index.html"><button type="button" value="Submit"class="btn btn-primary btn-lg"><i class="fas fa-file-import"></i>Send</button></a>
+              </tr>
+              <button id="resetButton" type="reset" class="btn btn-warning btn-lg"><i class="fas fa-redo"></i> Reset</button>
+            </form>  
+
+        </div>
+    </main>
+
+    <footer>
+        <nav class="navbar fixed-bottom navbar-light" style="background-color: lightgray;"> 
+            <h5>&copy; Copyright -Shankar Sigdel 2020-Student No:301110925.</h5>
+        </nav>
+    </footer>
+
+    <!-- JavaScript Section -->
+
+    <!-- 3rd Party JavaScript Libraries -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- App Scripts -->
+    <script src="./Scripts/app.js"></script>
+</body>
+</html>
