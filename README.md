@@ -1,3 +1,3 @@
-# COMP125-M2020-Assignment 3
+# COMP125-M2020-Assignment2
 
-## Assignment 3 COMP 125 - Client Side Web Development
+## Assignment2 COMP 125 - Client Side Web Development
